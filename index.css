@@ -1,0 +1,260 @@
+body {
+    /* background-color: black; */
+    background-image: url('https://images.pexels.com/photos/3930091/pexels-photo-3930091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+  display: flex;
+  font-size: 2.0rem;
+  font-weight: 600;
+  font-family: Michroma;
+  padding-left: 1%;
+  opacity: 100%;
+}
+
+#grid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: -10px;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    opacity: 90%;
+    height: 10vh;
+    padding: 3px;
+    margin-top: 40px;
+    /* padding-top: 3px */
+    font-size: 2.5rem;
+
+}
+
+
+
+button{
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(213, 155, 30);
+  font-family: Teko;
+  font-size: 2.5rem;
+  border: none;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(213, 155, 30);
+    font-family: Teko;
+    margin-top: 7.5px;
+  }
+
+  button:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+p {
+    color: white;
+}
+
+#Home-Page{
+  height: 20vh;
+  width: 70vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0,0.8);
+  border-radius: 12%;
+}
+
+
+#Home-Page2{
+  font-family: Jura;
+  height: 54vh;
+  width: 63vw;
+  margin: auto;
+  margin-left: 1%;
+  background-color: rgba(0, 0, 0,0.8);
+  border-radius: 12%;
+  
+}
+
+/* #Home-Page3 {
+  height: 65vh;
+  width: 22vw;
+  
+  background-color: rgba(0, 0, 0,0.8);
+  position: relative;
+  left: 20%;;
+} */
+
+#wrench-pic {
+  position: absolute;
+  width: 25vw;
+  height: 25vh;
+  transform: rotate(90deg);
+  left: 70%;
+  top: 58%;
+}
+
+#Contact-Container{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 95vw;
+  height: 80vh;
+  margin: auto;
+}
+
+#Shop-Page{
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  width: 90vw;
+  margin: auto;
+  font-family: Jura;
+  border-radius: 20px;
+}
+
+#Shop-Page a{
+  font-size: 3rem;
+}
+
+#Shop-Page h1{
+  font-family: Michroma;
+  font-weight: 900;
+  color: white;
+}
+
+#Shop-Img{
+  margin: auto;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  /* border: white 1px solid; */
+  width: 50vw;
+  grid-gap: 10px;
+}
+#Shop-Img div{
+  width: 25vw;
+  height: 200px; 
+  background-color: green;
+  border: rgb(0, 0, 0) 1px solid;
+  color: white;
+}
+
+.Contact-Block{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0,0.8);
+  text-align: center;
+  /* border: 1px red solid; */
+  color: white;
+}
+
+.Contact-Block h1{
+  font-family: Michroma;
+  font-weight: 600;
+}
+
+.Contact-Section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px blue solid; */
+  font-family: Jura;
+}
+ /* #coverArt {
+  margin: auto;
+  width: 66.8%;
+  opacity: 80%;
+  border-radius: 10%;
+}  */
+
+svg {
+  padding-left: 1.5%;
+  width: 18%;
+  stroke: rgb(213, 155, 30) ;
+  fill: black;
+  stroke-width: 7px;
+}
+
+
+#modo {
+  padding-left: 6%;
+  padding-top: 5%;
+  color:white;
+  font-size: 2rem;
+  font-family: Michroma;
+}
+
+#company-about {
+  padding-left: 2.5%;
+  padding-top: 5%;
+  color:white;
+  font-size: 2rem;
+}
+
+
+
+.none{
+  display: none;
+  }
+
+  #drill {
+    background-image: url(https://i.pinimg.com/736x/7c/aa/2f/7caa2f45556e1036e619727f26a83bd4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #wrench {
+    background-image: url(https://img.freepik.com/premium-photo/top-view-one-steel-combination-wrench-black-background_305419-841.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #nails {
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2024/5/417090043/RY/JU/EV/44280720/3-25-inch-iron-wire-nail-500x500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #lights {
+    background-image: url(https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2023/06/256_AdobeStock_338445502-scaled.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #battery {
+    background-image: url(https://media.istockphoto.com/id/1003886392/photo/generic-maintenance-free-car-battery-on-black-background.jpg?s=1024x1024&w=is&k=20&c=EPBVyxB71Qa2XZODNVNZE6eK6-doY13hA7yhlUUYZ9s=);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #hammer {
+    background-image: url(https://img.freepik.com/premium-photo/hammer-isolated-black-background_275805-564.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #lawnmower {
+    background-image: url(https://cdnmedia.endeavorsuite.com/images/organizations/b3155e12-0ffb-4e7f-a4de-fac19ab6032c/inventory/11288252/21566-60V-SR5-Mower_pdp_performance1-1.jpg?v=1646255861691);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #chainsaw {
+    background-image: url(https://img.freepik.com/premium-photo/electric-chain-saw-wooden-table-black-background-electric-tool-wood-processing_94064-5213.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
